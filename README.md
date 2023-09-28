@@ -57,7 +57,7 @@ Installation handbook: [https://docs.google.com/presentation/d/1DoHhD1M588GQGURy
 <img src="https://github.com/hds-69/csc-app/blob/57db1150b52154eb33c64af3959c8c43b697c35b/Project%20info/save.gif" style="max-width: 20%;" align="center" />
 
 ## Development process
-1. Dataset: Train 32 cases (3,752 images), Test1 8 cases (1,314 images), Test2 62 cases (7,686 images)
+1. Dataset: Train 32 cases (3,752 images), Test1 20 cases (2,584 images), Test2 72 cases (8,720 images)
 
    CT-scans image range: `92-208` images
    
@@ -71,7 +71,7 @@ Installation handbook: [https://docs.google.com/presentation/d/1DoHhD1M588GQGURy
 7. TSS Evaluation with Test2 dataset.
 
 ## Results
-The model was evaluated on a dataset of 8 infected patients, and the results demonstrated that 3D-UNet + DenseNet169 achieved the best performance, yielding Dice Similarity Coefficient (DSC) of `92.89%` and `84.22%` for lung lobe and lesion segmentation, respectively. The proposed model can reliably segment lesions on CT scans of severe cases, but the model performed less accurately in segmenting lung lesions of mild and moderate cases. However, the TSS calculated by the proposed model were comparable to those assigned by radiologists. Using CT scans of 62 COVID-19 patients for evaluation, the correlation coefficient (r) was `0.9125`, indicating a very strong correlation.
+The model was evaluated on a dataset of 20 infected patients, and the results demonstrated that 3D-UNet + DenseNet169 achieved the best performance, yielding Dice Similarity Coefficient (DSC) of `91.52%` and `76.88%` for lung lobe and lesion segmentation, respectively. The proposed model can reliably segment lesions on CT scans of severe cases, but the model performed less accurately in segmenting lung lesions of mild and moderate cases. However, the TSS calculated by the proposed model were comparable to those assigned by radiologists. Using CT scans of 72 COVID-19 patients for evaluation, the correlation coefficient (r) was `0.9176`, indicating a very strong correlation.
 
 Model Testing Result Table `Test with Test set 1`
 
