@@ -77,19 +77,17 @@ Model Testing Result Table `Test with Test set 1`
 
 | Objective             | Model   | Backbone   | IoU  |  DSC | Accuracy | Precision | Sensitivity | Specificity |
 | --------------------- | ------- | ----------- |------|------|----------|-----------|-------------|-------------|
-| Lung lobe segmentation| 3D-Unet |DenseNet 169 |90.44%|92.89%| 98.49%   | 94.18%    | 95.52%      | 98.49%      |
-| Lesion segmentation   | 3D-Unet |DenseNet 169 |79.61%|84.22%| 98.86%   | 86.7%     | 89.07%      | 98.91%      |
+| Lung lobe segmentation| 3D-Unet |DenseNet 169 |88.59%|91.52%| 98.25%   | 93.33%    | 94.46%      | 98.28%      |
+| Lesion segmentation   | 3D-Unet |DenseNet 169 |72.22%|76.88%| 99.06%   | 81.89%    | 83.47%      | 99.20%      |
 
 
 TSS calculation Testing Result Table `Test with Test set 2`
 | Regression Statistics  | Value   |
 | ---------------------- | ------- |
-| Correlation Coefficient| 0.9125  |
-| R Square               | 0.8327  |
-| Adjusted R Square      | 0.8299  |
-| Standard Error         | 2.5629  | 
-| Observations           |   62    |
-| p-value                | <0.001   |
+| Correlation Coefficient| 0.9176  |
+| R Square               | 0.8419  |
+| Observations           |   72    |
+| p-value                | <0.0001 |
 
 
 ## Citation
