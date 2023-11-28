@@ -94,8 +94,5 @@ TSS calculation Testing Result Table `Test with Test set 2`
 
 For more information, kindly acknowledge our project by citing it when using the code. The article is currently under review.
 ```
-Prachaya Khomduean, Pongpat Phuaudomcharoen, Totsaporn Boonchu et al.
-Segmentation of Lung Lobes and Lesions in Chest CT for the Classification of COVID-19 Severity,
-19 January 2023, PREPRINT (Version 1) 
-available at Research Square [https://doi.org/10.21203/rs.3.rs-2466037/v1]
+Khomduean, P., Phuaudomcharoen, P., Boonchu, T. et al. Segmentation of lung lobes and lesions in chest CT for the classification of COVID-19 severity. Sci Rep 13, 20899 (2023). https://doi.org/10.1038/s41598-023-47743-z
 ```
