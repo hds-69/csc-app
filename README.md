@@ -1,6 +1,5 @@
 # Segmentation of Lung Lobes and Lesions in Chest   CT for the Classification of COVID-19 Severity
-Video: https://youtu.be/bAVM-OChI_k
-
+Publication: https://doi.org/10.1038/s41598-023-47743-z
 <img src="https://github.com/hds-69/csc-app/blob/2abecc4e249e88afafad68fa137d6251f2a77d0b/Project%20info/framework.gif" style="max-width: 20%;" align="center" />
 
 ## About
